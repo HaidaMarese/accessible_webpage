@@ -1,6 +1,6 @@
 # Accessible Design Web. 
 
-This project demonstrates the creation of a responsive and accessible web page for a fictitious company, Accessible Design Co. The webpage utilizes semantic HTML, Flexbox, Grid, and various accessibility features to ensure a user-friendly and inclusive experience across different devices and screen sizes.
+This project demonstrates the creation of a responsive and accessible web page for a fictitious company. The webpage utilizes semantic HTML, Flexbox, Grid, and various accessibility features to ensure a user-friendly and inclusive experience across different devices and screen sizes.
 
 ## Features
 
@@ -17,6 +17,16 @@ This project demonstrates the creation of a responsive and accessible web page f
 - **Services Section:** Grid-based layout showcasing various services with icons/images and descriptions.
 - **Contact Form:** Includes accessible form fields for "Name," "Email," "Subject," and "Message."
 - **Footer:** Contains copyright information, social media links, and contact details.
+
+ ## Instructions
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/HaidaMarese/accessible_webpage.git
+    ```
+2. Open the project in your preferred browser to view the web page.
+
+3. Test the responsiveness by resizing the browser window to different screen widths.
 
 ## Technologies Used
 
