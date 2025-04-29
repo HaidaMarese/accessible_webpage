@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <div class="logo">
+                <img src="images/Logo.png" alt="Fresh Fruit Company Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Fresh Fruit!</h1>
+                <p>Your go-to source for fresh, healthy, and organic fruit.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-us">
+            <h2>About Us</h2>
+            <p>Fresh Fruit is committed to providing the highest quality, organic fruits to customers all over the world. We believe in sustainable farming and healthy living.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <article class="service-item">
+                    <img src="images/Organic_Fruit.png" alt="Service 1">
+                    <h3>Organic Fruit Delivery</h3>
+                    <p>We deliver fresh, organic fruit directly to your doorstep.</p>
+                </article>
+                <article class="service-item">
+                    <img src="images/Fruit Baskets.png" alt="Service 2">
+                    <h3>Custom Fruit Baskets</h3>
+                    <p>Personalized fruit baskets for any occasion.</p>
+                </article>
+                <article class="service-item">
+                    <img src="images/Healthy_recipes.png" alt="Service 3">
+                    <h3>Healthy Recipes</h3>
+                    <p>Discover delicious recipes made from fresh fruits.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-describedby="nameHelp">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-describedby="emailHelp">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required aria-describedby="subjectHelp">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required aria-describedby="messageHelp"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fresh Fruit. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="TikTok">TikTok</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
